@@ -1,0 +1,96 @@
+2025-06-04 18:14:34,858 - train - INFO - Model Structure: ResNet(
+  (conv1): Conv2d(
+    (conv): Conv2d(2, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  )
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (convout): Conv2d(
+    (conv): Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  )
+  (tanh): Tanh()
+  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+  (layers): Sequential(
+    (0): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (2): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(
+          (conv): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Linear(in_features=64, out_features=10, bias=True)
+)
+2025-06-04 18:14:35,245 - train - INFO - Start Training round: 0
+2025-06-04 18:26:16,201 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 18:26:21,014 - train - INFO - Start Training round: 1
+2025-06-04 18:37:59,777 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 18:38:04,218 - train - INFO - Start Training round: 2
+2025-06-04 18:49:49,329 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 18:49:53,745 - train - INFO - Start Training round: 3
+2025-06-04 19:01:40,338 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 19:01:44,726 - train - INFO - Start Training round: 4
+2025-06-04 19:13:30,578 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 19:13:35,124 - train - INFO - Start Training round: 5
+2025-06-04 19:25:20,357 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 19:25:24,690 - train - INFO - Start Training round: 6
+2025-06-04 19:37:04,106 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 19:37:08,585 - train - INFO - Start Training round: 7
+2025-06-04 19:48:52,059 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 19:48:56,385 - train - INFO - Start Training round: 8
+2025-06-04 20:00:38,899 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 20:00:43,149 - train - INFO - Start Training round: 9
+2025-06-04 20:12:27,458 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 20:12:31,947 - train - INFO - Start Training round: 10
+2025-06-04 20:24:14,599 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 20:24:19,061 - train - INFO - Start Training round: 11
+2025-06-04 20:35:57,954 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 20:36:02,241 - train - INFO - Start Training round: 12
+2025-06-04 20:47:43,838 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 20:47:48,223 - train - INFO - Start Training round: 13
+2025-06-04 20:59:30,992 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 20:59:35,088 - train - INFO - Start Training round: 14
+2025-06-04 21:11:17,475 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 21:11:21,861 - train - INFO - Start Training round: 15
+2025-06-04 21:23:00,410 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 21:23:04,743 - train - INFO - Start Training round: 16
+2025-06-04 21:34:44,484 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 21:34:48,906 - train - INFO - Start Training round: 17
+2025-06-04 21:46:30,968 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 21:46:35,404 - train - INFO - Start Training round: 18
+2025-06-04 21:58:13,080 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 21:58:17,299 - train - INFO - Start Training round: 19
+2025-06-04 22:09:59,908 - send_parameters - INFO - Not aggregate Lora!!!!!!!!
+2025-06-04 22:10:04,307 - train - INFO - Best: 0
